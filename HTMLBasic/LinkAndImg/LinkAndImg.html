@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is a example of img <img src="./images/mochi.png" alt=""></p>
+    <!-- this is a relative link -->
+    <p>Click <a href="./misc/extra.html">here</a> to go to page extra </p>
+
+    <!-- this is a absolute link
+     target=”_blank”: opens the link in a new tab. rel=”noopener”: prevents the new tab from accessing the original page
+    Without noopener, the new tab could use JavaScript to interact with the original page
+    noreferrer: The noreferrer value of the rel attribute provides both privacy and security. 
+    It prevents the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of noopener, 
+    preventing the new page from accessing the original page. -->
+    <p>Click <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">here</a> to go to google.com</p>
+
+
+    <h1>JPG</h1>
+    <img src="./images/mochi.jpg" alt="" width="300">
+    <h2>GIF</h2>
+    <img src="./images/mochi.gif" alt="" width="75">
+    <h3>PNG</h3>
+    <img src="./images/mochi.png" alt="" width="75">
+    <h4>SVG</h4>
+    <img src="./images/mochi.svg" alt="" width="200">
+    <p>SVG img you can resize it any way you want without breaking img</p>
+
+    <img src="https://www.theodinproject.com/mstile-310x310.png" alt="" width="50"> You can get img from the web
+</body>
+</html>
