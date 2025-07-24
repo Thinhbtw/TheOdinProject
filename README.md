@@ -1,1 +1,2 @@
 # TheOdinProject
+A learning project 
