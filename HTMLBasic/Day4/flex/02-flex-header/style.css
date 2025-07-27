@@ -1,0 +1,88 @@
+.header-wide  {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  align-items: center;
+}
+
+.header-wide .logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+
+.header-wide ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+}
+
+.header-wide a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
+
+.header-wide .left-links ul {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.header-wide .right-links ul {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.header-narrow  {
+  font-family: monospace;
+  background: papayawhip;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+  align-items: center;
+}
+
+.header-narrow .logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+}
+
+.header-narrow ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+}
+
+.header-narrow a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
+
+.header-narrow .left-links ul {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+.header-narrow .right-links ul {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
