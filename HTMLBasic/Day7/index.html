@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button class="adu">Press!</button>
+    <div id="greeting"></div>
+
+    
+</body>
+<script>
+        const button = document.querySelector('.adu');
+        
+        function greet() {
+            const name = prompt("What's your name");
+            const greeting = document.querySelector("#greeting");
+            greeting.textContent = `Welcome to the ricefield motherf*cker, ${name}`;
+        }
+
+        button.addEventListener("click", greet);
+
+        
+        
+</script>
+</html>
