@@ -1,0 +1,154 @@
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 460px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo {
+    width: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+}
+
+.text-intro {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 410px;
+    gap: 10px;
+}
+
+.text-intro p {
+    color: white;
+    margin: 0;
+}
+
+.main-intro {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    
+}
+
+.sub-intro {
+    font-size: 17px;
+    color: #E5E7EB;
+}
+
+.intro img {
+    width: 500px;
+}
+
+.text-intro button { 
+    background-color: #3882F6;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    width: 120px;
+    border: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.main-items {
+    display: flex;
+    gap: 50px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.item img {
+    border-radius: 10%;
+}
+
+.item p {
+    text-align: center;
+    font-weight: 200;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 270px;
+}
+
+.main-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    width: 750px;
+    margin: 0;
+}
+
+.person-quote {
+    margin: 0;
+    margin-left: 450px;
+}
+
+.signup {
+    margin: 80px 400px;
+    padding: 30px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup p {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
