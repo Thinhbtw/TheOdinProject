@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const add = (number) => {
+        return number + 7;
+    }
+
+    const multiply = (number1, number2) => {
+        return number1 * number2;
+    }
+
+    const test = (a, b = 2) => {
+        return a + b;
+    }
+
+    const capitalized = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+    const lastLetter = (string) => {
+        const length = string.length;
+        return string.charAt(length - 1);
+    }
+
+    console.log(add(2));
+    console.log(multiply(4, 5));
+    console.log(test(5));
+    console.log(test(5, 6));
+    console.log(capitalized('chiu'));
+    console.log(lastLetter('abcd'))
+</script>
+</html>
